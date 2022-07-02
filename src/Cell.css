@@ -1,0 +1,29 @@
+.Cell {
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #a9a9a9;
+  transition: background-color .5s ease;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #d3d3d3;
+}
+
+.Cell:hover {
+  background-color: #bebebe;
+}
+
+.Cell:active {
+  transform: translateY(1px);
+}
+
+.Cell-lit {
+  background-color: #feffae;
+}
+
+.Cell-lit:hover {
+  background-color: #feffd3;
+}
+
+.Cell-lit {
+  transform: translateY(1px);
+}
